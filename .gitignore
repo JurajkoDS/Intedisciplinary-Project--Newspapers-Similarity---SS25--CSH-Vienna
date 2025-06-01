@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# PyCharm files
+.idea/
+
+# Logs
+*.log
+
+# dotenv environment variables
+.env
+.env.*
+
+# MyPy and other tooling
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+#files
+/data
+/images
+/velocity_histograms
+EDA.ipynb
+pipeline_also_old.ipynb
+pipeline_df.ipynb
+pipeline_old.ipynb
+combined_2018.png
