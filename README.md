@@ -19,7 +19,7 @@ Using the load_data.ipynb notebook, the user can clean and merge the 5 (2018-202
 - It assumes the user has the data tweets_light.parquet, retweets_light.parquet and users_tw+rt_light.parquet, which should all be located in a 'data' folder, before the notebook can be run. The final dataframe is saved or loaded.
 - The statistics dataframe is also generated using this notebook.
 
-### The steps to generate the statistics table are as following:
+### The steps to generate the statistics table:
 0. In step 0, we create a loop so that we can iterate over each of the 5 years.
 1. We get a subset of the dataframe based on just 1 year.
 2. The year is dissected into months.
