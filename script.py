@@ -415,7 +415,7 @@ month_mapping = {
     12: "December"
 }
 
-df_global = pd.read_parquet("data/df_checkpoint.parquet")
+df_global = pd.read_parquet("df_checkpoint.parquet")
 
 years = df_global["tweet_created_at"].dt.year.unique()
 years = [y for y in years if y != 2017]
