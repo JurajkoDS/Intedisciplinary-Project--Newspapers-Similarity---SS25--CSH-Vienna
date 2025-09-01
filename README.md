@@ -35,4 +35,4 @@ Using the load_data.ipynb notebook, the user can clean and merge the 5 (2018-202
 ### Further notebooks and .py files:
 - the **modularity_timeseries+correlation.ipynb** generates a large timeseries modualarity graph, spanning over all 5 years (so all available data). It also generate a correlation heatmap, to see which statistical measures are significantly correlated.
 - **script.py** generates all the graphs and .csv files that can be found in the individual year folders 2018-2022. It assumes 'df_checkpoint.parquet', which is the resulting dataframe generated in load_data.ipynb, can be found in the directory.
-- **functions.py** is a collection of functions used in this project. It does contain all the functions used in this project, but most of them. Some of the other functions are in their respective notebooks or scripts.
+- **functions.py** is a collection of functions used in this project. It does not contain all the functions used in the 'load_data.ipynb' or 'modularity_timeseries+correlation.ipynb' files, but most of them. Some of the other functions are in their respective notebooks or scripts.
