@@ -1,19 +1,19 @@
 import pandas as pd
 import numpy as np
-import pyarrow as pa
-import pyarrow.parquet as pq
+#import pyarrow as pa
+#import pyarrow.parquet as pq
 import matplotlib.pyplot as plt
-from matplotlib import rcParams
+#from matplotlib import rcParams
 import seaborn as sns
-import regex as re
+#import regex as re
 import networkx as nx
-import random
-from scipy.sparse import csr_matrix
+#import random
+#from scipy.sparse import csr_matrix
 from scipy.spatial import distance
 from sklearn.decomposition import PCA
-from sklearn.impute import SimpleImputer
+#from sklearn.impute import SimpleImputer
 from scipy.spatial.distance import cosine
-from sklearn.preprocessing import StandardScaler
+#from sklearn.preprocessing import StandardScaler
 import os
 from tqdm import tqdm
 import plotly.graph_objects as go
@@ -417,10 +417,14 @@ month_mapping = {
 
 df_global = pd.read_parquet("df_checkpoint.parquet")
 
+print("Data loaded successfully!")
+
 years = df_global["tweet_created_at"].dt.year.unique()
 years = [y for y in years if y != 2017]
 
 counter = 0
+
+print("Starting analysis...")
 
 for year in years:
 
