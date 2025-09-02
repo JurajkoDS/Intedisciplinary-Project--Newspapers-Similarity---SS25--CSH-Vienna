@@ -14,7 +14,7 @@ This project analyzes similarity between newspapers based on retweet patterns us
 
 - Calculated and plotted Louvain modularity.
 
-### Requirements
+### Requirements:
 Running the notebooks and scripts with Conda base environment works well. However, before they can be seamlessly run:
 - make sure to install “pip install -U kaleido”
 - make sure to install “plotly_get_chrome” in terminal as well.
