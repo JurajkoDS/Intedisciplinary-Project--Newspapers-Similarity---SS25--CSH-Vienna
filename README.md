@@ -14,6 +14,11 @@ This project analyzes similarity between newspapers based on retweet patterns us
 
 - Calculated and plotted Louvain modularity.
 
+### Requirements
+Running the notebooks and scripts with Conda base environment works well. However, before they can be seamlessly run:
+- make sure to install “pip install -U kaleido”
+- make sure to install “plotly_get_chrome” in terminal as well.
+
 ### Steps to generate the dataframe:
 Using the load_data.ipynb notebook, the user can clean and merge the 5 (2018-2022) years of data that was available for analysis.
 - It assumes the user has the data tweets_light.parquet, retweets_light.parquet and users_tw+rt_light.parquet, which should all be located in a 'data' folder, before the notebook can be run. The final dataframe is saved or loaded.
